@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bottombarGreen">#94a38d</color>
+    <color name="whitetrans">#FFFFFFFF</color>
+    <color name="bottombarGreentrans">#9994a38d</color>
+    <color name="bottomcenterbk">#dcdbdd</color>
 </resources>

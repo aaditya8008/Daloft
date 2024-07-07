@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.TranslucentCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bottombarGreentrans</item>
+
+    </style>
+</resources>

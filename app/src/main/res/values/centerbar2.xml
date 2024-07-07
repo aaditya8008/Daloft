@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppTheme.CenterBarShape2" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">50dp</item>
+        <item name="android:background">@drawable/trapezoidup</item>
+
+    </style>
+</resources>

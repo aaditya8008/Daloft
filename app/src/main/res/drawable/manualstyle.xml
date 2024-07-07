@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+
+    <!-- Right side shape -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeMiterLimit="10"
+        android:pathData="M 4 8 L 3 20 L 34 20 L 28 8 Z" />
+
+    <!-- Left side shape (mirrored) -->
+    <path
+        android:fillColor="#dcdbdd"
+        android:strokeWidth="1.5"
+        android:strokeMiterLimit="10"
+        android:pathData="M 36 8 L 37 20 L 6 20 L 12 8 Z" />
+</vector>
+
+
+
+
+
+
+
+
