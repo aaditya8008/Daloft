@@ -29,6 +29,94 @@ android:orientation="horizontal"
           >
 
             <androidx.cardview.widget.CardView
+
+                android:id="@+id/buttonCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btButton"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonshape"
+                        android:paddingStart="40dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="40dp"
+                        android:paddingBottom="2dp"
+                        android:text="BT Devices"
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/diconnectButton"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonshape2"
+                        android:paddingStart="36dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="36dp"
+                        android:paddingBottom="2dp"
+                        android:text="Disconnect"
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/magosbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonshape3"
+                        android:paddingStart="44dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="44dp"
+                        android:paddingBottom="2dp"
+                        android:text="Mag OS"
+
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/maglevelbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonshape3"
+                        android:paddingStart="40dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="40dp"
+                        android:paddingBottom="2dp"
+                        android:text="Mag Level"
+                        android:textColor="@color/white" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/accbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonshape3"
+                        android:paddingStart="40dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="40dp"
+                        android:paddingBottom="2dp"
+                        android:text="Acc Cal"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

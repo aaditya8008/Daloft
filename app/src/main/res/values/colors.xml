@@ -6,4 +6,7 @@
     <color name="whitetrans">#FFFFFFFF</color>
     <color name="bottombarGreentrans">#9994a38d</color>
     <color name="bottomcenterbk">#dcdbdd</color>
+    <color name="btbutton">#69706c</color>
+    <color name="disconnectbutton">#dd694d</color>
+    <color name="button3color">#60aebbae</color>
 </resources>
